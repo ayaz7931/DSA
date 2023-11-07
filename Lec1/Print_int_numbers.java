@@ -9,9 +9,9 @@ public class Print_int_numbers {
 		int n= scn.nextInt();
 		int i =1;
 		while(i<=n)
-			{
+		{
 			System.out.println(i);
 			i++;
-			}
+		}
 	}
 }

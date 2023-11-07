@@ -27,7 +27,7 @@ public class Practice_2 {
 //		System.out.println(k);
 //		System.out.println(l);
 		
-		int[] arr = {4,5,6,7,0,2,1,3};
+		int[] arr = {4,5,6,7,0,2,1,3}; // Inverse
         int[] arr2 = new int[arr.length];
         //String s1 = "";
         for(int i=0;i<arr.length;i++)

@@ -7,6 +7,7 @@ public class Grade_of_students {
 		int n=27;
 		if(n>=70)
 			System.out.println("A");
+		
 		else if(n>=60)
 			System.out.println("B");
 

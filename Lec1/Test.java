@@ -8,7 +8,10 @@ public class Test {
 		System.out.println("Hey");
 		System.out.println("Hello");
 		System.out.println("Bye");
-		System.out.println(0017);
+		System.out.println(0b11); // binary
+		System.out.println(017); // octal
+		System.out.println(17); // decimal
+		System.out.println(0x17); // hexa decimal
 
 	}
 

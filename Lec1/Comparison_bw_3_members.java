@@ -6,10 +6,10 @@ public class Comparison_bw_3_members {
 		// TODO Auto-generated method stub
 		int a=3, b=7, c=9;
 		if(a>=b && a>=c)
-			System.out.println("a is greater");
+			System.out.println("a is greatest");
 		else if( b>=c)
-			System.out.println("b is greater");
+			System.out.println("b is greatest");
 		else
-			System.out.println("c is greater");
-		}
+			System.out.println("c is greatest");
+	}
 }

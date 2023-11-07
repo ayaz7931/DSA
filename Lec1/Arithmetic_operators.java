@@ -13,5 +13,5 @@ public class Arithmetic_operators {
 		System.out.println(c);
 		c+=3;   //c=c+3;
 		System.out.println(c);
- }
+	}
 }

@@ -10,9 +10,7 @@ public class Sum_of_n_numbers {
 		while(i<=n)
 		{
 			sum += i;
-			i++;
-			
-			
+			i++;			
 		}
 		System.out.println(sum);
 

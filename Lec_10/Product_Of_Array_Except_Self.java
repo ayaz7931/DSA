@@ -1,6 +1,6 @@
 package Lec_10;
 
-public class Producr_Of_Array_Except_Self {
+public class Product_Of_Array_Except_Self {
 	public static void main(String[] args)
 	{
 		int[] arr= {5,2,3,4,6};

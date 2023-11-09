@@ -12,10 +12,19 @@ public class Pattern_7 {
 		while(row<=n)
 		{
 			int i =1;
-			while(i<=star+1)
-			{
-				System.out.print("* ");
-				i++;
+			if(row==1 || row==n) {
+				while(i<=star+1)
+				{
+					System.out.print("* ");
+					i++;
+				}
+			}
+			else {
+				while(i<=star)
+				{
+					System.out.print("* ");
+					i++;
+				}
 			}
 			int j=1;
 			while(j<=space) 
@@ -24,22 +33,23 @@ public class Pattern_7 {
 				j++;
 			}
 			int k=1;
-			while(k<=n/2)
+			while(k<=star)
 			{
 				System.out.print("* ");
 				k++;
 			}
+			row++;
 			
-			if(row==1 || row==n)
+			if(row==n)
 			{
-				System.out.print("");
+				star=n/2;
+				space=0;
 			}
 			else
 			{
-				star=n-(n-2);
+				star=1;
 				space=n-2;
 			}
-			row++;
 			System.out.println();
 		}
 	}

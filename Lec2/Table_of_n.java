@@ -10,8 +10,8 @@ public class Table_of_n {
 		int i=1;
 		while(i<=10)
 		{
-			int k=n*i;
-			System.out.println(k);
+			//int k=n*i;
+			System.out.println(n*i);
 			i++;
 		}
 	}

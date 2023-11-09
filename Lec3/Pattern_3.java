@@ -8,12 +8,10 @@ public class Pattern_3 {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
-		int row=1;
-		while(row<=n)
-		{
-			int i=n;
-			while(i>=row)
-			{
+		int row = 1;
+		while (row <= n) {
+			int i = n;
+			while (i >= row) {
 				System.out.print("* ");
 				i--;
 			}
